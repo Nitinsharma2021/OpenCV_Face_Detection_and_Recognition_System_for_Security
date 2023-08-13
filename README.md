@@ -31,6 +31,6 @@ Contributions are welcome! Feel free to improve the code, add features, or fix b
 ## Normal system 
 <p> this Project is Deivide into three files </p>
 <ul> In First part the Capture the Picture and save it. </ul>
-<ul> In Second Part the Model gets trained properly with the datasets of images. </ul>
+<ul> In Second Part the Model gets trained properly with the datasets of images.</ul>
 <ul> In Third Part the Model gets trained and predict the face and recogination it properly. </ul>
 
