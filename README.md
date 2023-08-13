@@ -1,14 +1,34 @@
-#  Face-Unlock-and-Lock-Recogination-System
-<h1> Can you unlock face recognition with a picture on your device </h1>
-<p> When using face recognition to unlock your device, your phone could be unlocked by someone or something that looks like your image. The possibility of the exceptional cases where the current detector can mistake fake image as a live input, the decision logic was already applied to strengthen the anti-spoofing function.
+# OpenCV Face Detection and Recognition System for Security
 
-However, there are technical limitations in coping with all spoofing attempts such as high-resolution images.
+Unlock your device using face recognition. This project demonstrates a face recognition system using Python and OpenCV. While convenient, remember that face recognition might have limitations and potential security risks.
 
-Thus we do not recommend the usage of face recognition for high-security authentication applications. As Face recognition is less secure than Pattern, Pin, or Password, we recommend using Fingerprint recognition, Pattern, Pin, or Password to lock the device.
-Additionally, if you use your face as a screen lock method, your face cannot be used to unlock the screen when turning on the device. You must unlock the screen using a pattern, PIN, or password you set when registering the face. Be careful not to forget your pattern, PIN, or password. </p>
-![abstract-facial-recognition-blue-background_23-2148209493](https://user-images.githubusercontent.com/60054130/119249396-eaeff080-bbb5-11eb-9e88-dd98f05a840e.jpg)
-![1_Tnbi_38yshPlHsAl2Tg_jw](https://user-images.githubusercontent.com/60054130/119249429-212d7000-bbb6-11eb-8fa6-3028322617d2.jpeg)
+## Features
 
+- Capture and analyze face images through the device's camera.
+- Train a model using the captured images.
+- Recognize and identify faces using the trained model.
+- Save captured images with date and time in a locked session.
+
+## Disclaimer
+
+This project is for educational purposes and not recommended for secure authentication. Use more secure methods for sensitive data and devices.
+
+## Getting Started
+
+1. Install Python, OpenCV, and required libraries.
+2. Capture face images using the provided code.
+3. Train the model with the captured images.
+4. Use the model to recognize and unlock based on detected faces.
+
+## Saving Locked Images
+
+During locked sessions, the system captures images of potential users. These images are saved in a separate folder, labeled with the date and time of the capture. This folder structure helps you identify and manage locked images efficiently.
+
+## Contributions
+
+Contributions are welcome! Feel free to improve the code, add features, or fix bugs.
+
+## Normal system 
 <p> this Project is Deivide into three files </p>
 <ul> In First part the Capture the Picture and save it. </ul>
 <ul> In Second Part the Model gets trained properly with the datasets of images. </ul>
